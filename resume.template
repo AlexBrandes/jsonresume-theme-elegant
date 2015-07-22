@@ -181,32 +181,6 @@
 					</div>
 				</div>
 				<div class="col-md-12">
-					<h2 class="oswald-font"><span class="fa fa-group"></span>&nbsp; Volunteerism</h3>
-					<hr>
-					<div class="col-md-10">
-						{{#volunteer}}
-							<div class="item-detail">
-								<h3>
-									{{#website}}<a target="_blank" href="{{website}}">
-										@{{/website}}{{organization}} 
-									{{#website}}</a>{{/website}}
-								</h3>
-								{{#summary}}<p class="text-muted">{{summary}}</p>{{/summary}}
-								<h5>{{startDate}}{{#endDate}} - {{endDate}}{{/endDate}}</h5>
-								<h4>
-									{{#position}}<span>{{position}}</span>{{/position}}
-								</h4>
-							</div>
-							<ul>
-            					{{#highlights}}
-								<li>{{.}}</li>
-              					{{/highlights}}
-							</ul>
-							<hr>
-						{{/volunteer}}
-					</div>
-				</div>
-				<div class="col-md-12">
 					<h2 class="oswald-font"><span class="fa fa-book"></span>&nbsp; Hobbies</h2>
 					<hr>
 					<div class="col-md-10">
